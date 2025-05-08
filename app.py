@@ -3,8 +3,6 @@ import requests
 from tkinter import filedialog, Tk, Menu, Listbox, Button, Frame, PhotoImage, END
 import pygame
 import os
-#os.environ['TCL_LIBRARY'] = r'C:\Users\soura\AppData\Local\Programs\Python\Python313\tcl\tcl8.6'
-#os.environ['TK_LIBRARY'] = r'C:\Users\soura\AppData\Local\Programs\Python\Python313\tcl\tk8.6'
 
 # Download the image from the web
 def download_image(image_url,file_name):
